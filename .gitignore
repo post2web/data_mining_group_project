@@ -1,7 +1,5 @@
 input/
 input/*
-notebooks/.ipynb_checkpoints/*
-notebooks/.ipynb_checkpoints/
-datasets/test.csv
+.ipynb_checkpoints/
 notebooks/mini_lab_1_template_yao.ipynb
 notebooks/mini_lab_1_template_yao.ipynb
