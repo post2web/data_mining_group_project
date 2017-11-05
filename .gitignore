@@ -1,5 +1,6 @@
 input/
 input/*.csv
+input/properties_2017.csv
 .ipynb_checkpoints/
 notebooks/mini_lab_1_template_yao.ipynb
 notebooks/mini_lab_1_template_yao.ipynb
