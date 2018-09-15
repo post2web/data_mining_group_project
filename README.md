@@ -1,10 +1,14 @@
-# data_mining_group_project
-SMU data mining group project
+# SMU Datamining Group
 
+## MSDS 7331 Data Mining - Section 403
+- Lab 1: Zillow Dataset Analysis and Visualization
+- Mini Lab 1: Zillow Dataset Logistic Regression and SVMs  
+- Lab 2: Zillow Dataset Classification Assignment  
+- Lab 3: Zillow Dataset Association Rule Mining, Clustering, or Collaborative Filtering  
+- Assignment 1: Linear Regression in Python
+- Assignment 2: Decision Trees and Splitting Criteria
+- Assignment 3: KNN, Naive Bayes, and Document Classification
+- Assignment 4: Clustering Spatial Data
+- Assignment 5: Association Rules
 
-## Workflow proposal	
-- clone the repo if you havent, download all data files from kaggle and put them in inputs dir
-- copy template notebook to a filename with your name as: ivelin.ipynb. Keep all notebooks in notebooks dir
-- pull changes before you start working
-- steal everything you like from other people's notebooks, put it in yours, add stuff, and modify stuff
-- push changes as soon as you have something done
+Team: Ivelin Angelov, Yao Yao, Kaitlin Kirasich, Albert Asuncion

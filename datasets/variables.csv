@@ -1,0 +1,65 @@
+name,type,scale,description
+parcelid,nominal,TBD,Unique identifier for parcels (lots)
+airconditioningtypeid,nominal,TBD,Type of cooling system present in the home (if any)
+architecturalstyletypeid,nominal,TBD,"Architectural style of the home (i.e. ranch, colonial, split-level, etc…)"
+basementsqft,ratio,TBD,Finished living area below or partially below ground level
+bathroomcnt,ordinal,TBD,Number of bathrooms in home including fractional bathrooms
+bedroomcnt,ordinal,TBD,Number of bedrooms in home
+buildingclasstypeid,nominal,TBD,"The building framing type (steel frame, wood frame, concrete/brick)"
+buildingqualitytypeid,ordinal,TBD,Overall assessment of condition of the building from best (lowest) to worst (highest)
+calculatedbathnbr,ordinal,TBD,Number of bathrooms in home including fractional bathroom
+decktypeid,nominal,TBD,Type of deck (if any) present on parcel
+finishedfloor1squarefeet,ratio,TBD,Size of the finished living area on the first (entry) floor of the home
+calculatedfinishedsquarefeet,ratio,TBD,Calculated total finished living area of the home
+finishedsquarefeet12,ratio,TBD,Finished living area
+finishedsquarefeet13,ratio,TBD,Perimeter living area
+finishedsquarefeet15,ratio,TBD,Total area
+finishedsquarefeet50,ratio,TBD,Size of the finished living area on the first (entry) floor of the home
+finishedsquarefeet6,ratio,TBD,Base unfinished and finished area
+fips,nominal,TBD,Federal Information Processing Standard code - see https://en.wikipedia.org/wiki/FIPS_county_code for more details
+fireplacecnt,ordinal,TBD,Number of fireplaces in a home (if any)
+fullbathcnt,ordinal,TBD,"Number of full bathrooms (sink, shower + bathtub, and toilet) present in home"
+garagecarcnt,ordinal,TBD,Total number of garages on the lot including an attached garage
+garagetotalsqft,ratio,TBD,Total number of square feet of all garages on lot including an attached garage
+hashottuborspa,ordinal,TBD,Does the home have a hot tub or spa
+heatingorsystemtypeid,nominal,TBD,Type of home heating system
+latitude,interval,TBD,Latitude of the middle of the parcel multiplied by 10e6
+longitude,interval,TBD,Longitude of the middle of the parcel multiplied by 10e6
+lotsizesquarefeet,ratio,TBD,Area of the lot in square feet
+poolcnt,ordinal,TBD,Number of pools on the lot (if any)
+poolsizesum,ratio,TBD,Total square footage of all pools on property
+pooltypeid10,nominal,TBD,Spa or Hot Tub
+pooltypeid2,nominal,TBD,Pool with Spa/Hot Tub
+pooltypeid7,nominal,TBD,Pool without hot tub
+propertycountylandusecode,nominal,TBD,County land use code i.e. it's zoning at the county level
+propertylandusetypeid,nominal,TBD,Type of land use the property is zoned for
+propertyzoningdesc,nominal,TBD,Description of the allowed land uses (zoning) for that property
+rawcensustractandblock,nominal,TBD,Census tract and block ID combined - also contains blockgroup assignment by extension
+regionidcity,nominal,TBD,City in which the property is located (if any)
+regionidcounty,nominal,TBD,County in which the property is located
+regionidneighborhood,nominal,TBD,Neighborhood in which the property is located
+regionidzip,nominal,TBD,Zip code in which the property is located
+roomcnt,ordinal,TBD,Total number of rooms in the principal residence
+storytypeid,nominal,TBD,"Type of floors in a multi-story house (i.e. basement and main level, split-level, attic, etc.). See tab for details."
+threequarterbathnbr,ordinal,TBD,Number of 3/4 bathrooms in house (shower + sink + toilet)
+typeconstructiontypeid,nominal,TBD,What type of construction material was used to construct the home
+unitcnt,ordinal,TBD,"Number of units the structure is built into (i.e. 2 = duplex, 3 = triplex, etc...)"
+yardbuildingsqft17,interval,TBD,Patio in yard
+yardbuildingsqft26,interval,TBD,Storage shed/building in yard
+yearbuilt,interval,TBD,The Year the principal residence was built
+numberofstories,ordinal,TBD,Number of stories or levels the home has
+fireplaceflag,ordinal,TBD,Is a fireplace present in this home
+structuretaxvaluedollarcnt,ratio,TBD,The assessed value of the built structure on the parcel
+taxvaluedollarcnt,ratio,TBD,The total tax assessed value of the parcel
+assessmentyear,interval,TBD,The year of the property tax assessment
+landtaxvaluedollarcnt,ratio,TBD,The assessed value of the land area of the parcel
+taxamount,ratio,TBD,The total property tax assessed for that assessment year
+taxdelinquencyflag,nominal,TBD,Property taxes for this parcel are past due as of 2015
+taxdelinquencyyear,interval,TBD,Year
+censustractandblock,nominal,TBD,Census tract and block ID combined - also contains blockgroup assignment by extension
+logerror,interval,TBD,Error or the Zillow model response variable
+transactiondate,nominal,TBD,Date of the transaction response variable
+price_per_sqft,ratio,TBD,Tax per SQFT
+zipcode_type,nominal,TBD,"Standard, PO BOX Only, Unique, Military(implies APO or FPO)"
+city,nominal,TBD,USPS offical city name(s)
+location_type,nominal,TBD,"Primary, Acceptable, Not Acceptable"
